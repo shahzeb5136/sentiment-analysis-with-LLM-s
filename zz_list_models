@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # --- PASTE YOUR GEMINI KEY HERE ---
-GEMINI_API_KEY = "AIzaSyA0eJGUVjl9lV2XNwzz3gk87LYns8vU2-w"
+GEMINI_API_KEY = "key plzzz"
 # ----------------------------------
 
 # Check if key is set
@@ -39,4 +39,5 @@ else:
     except Exception as e:
         print(f"\n--- AN ERROR OCCURRED ---")
         print(f"Error: {e}")
+
         print("\nPlease double-check your GEMINI_API_KEY and your internet connection.")
